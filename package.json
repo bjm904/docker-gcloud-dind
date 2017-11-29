@@ -1,6 +1,6 @@
 {
   "name": "@youdowell/docker-gcloud-dind",
-  "version": "0.1.0-SNAPSHOT",
+  "version": "0.1.0",
   "description": "Google Cloud SDK for Docker-in-Docker builds",
   "author": "Youdowell AG <admin@youdowell.com>",
   "license": "Apache 2.0",
