@@ -11,5 +11,9 @@
 /work/
 /tmp/
 
+# Node.js
+/node_modules/
+/npm-debug.log
+
 # Project
 /config/values.yaml
