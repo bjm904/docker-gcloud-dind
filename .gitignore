@@ -1,0 +1,15 @@
+# Build
+.gradle/
+.settings/
+.project
+.DS_Store
+
+# Derrived
+/data/
+/build/
+/logs/
+/work/
+/tmp/
+
+# Project
+/config/values.yaml
