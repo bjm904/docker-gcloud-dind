@@ -18,5 +18,3 @@ RUN apk --update --no-cache add \
     gcloud config set metrics/environment github_docker_image && \
     gcloud --version && \
     rm -rf /tmp/* && rm -rf /opt/google-cloud-sdk/.install/.backup
-
-VOLUME ["/root/.config"]
