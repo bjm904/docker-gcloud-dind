@@ -14,6 +14,7 @@ RUN apk --update --no-cache add \
     wget -O - -q "${GCLOUD_SDK_URL}" | tar zxf - -C /opt && \
     ln -s /lib /lib64 && \
     gcloud config set core/disable_usage_reporting true && \
+    gcloud config set core/disable_prompts true && \
     gcloud config set component_manager/disable_update_check true && \
     gcloud config set metrics/environment github_docker_image && \
     gcloud --version && \
